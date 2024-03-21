@@ -1,0 +1,71 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    text-align: center; 
+}
+header {
+    background-color: #167cf0;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container {
+    display: inline-block;
+    width: 70%; 
+    text-align: left; 
+}
+.introduction{
+    background-color: #03dfdf;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+    display: inline-block; 
+}
+
+.skills {
+    background-color: #9903df;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+    display: inline-block; 
+}
+.skills ul {
+    list-style: none;
+    padding: 0;
+    text-align: left; 
+   
+}
+.skills li {
+    border: 1px solid #ccc;
+     background: #03dfdf;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.contact {
+    background-color: #3f0179;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.contact a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90%; 
+    }
+}
